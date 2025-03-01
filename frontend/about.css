@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3d4ecf, #a348c7);
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e0f6f;
+    padding: 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+
+.about-us {
+    padding: 10px;
+    max-width: 1100px;
+    margin: 80px auto;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.content-section img {
+    border-radius: 20px;
+    /* max-width: 100%;
+    height: auto; */
+    width: 40vw;
+    height: 40vh;
+    /* border-radius: 8px;
+    margin-right: 20px; */
+    flex-basis: 40%;
+}
+
+.text {
+    flex-basis: 55%;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: underline;color: black;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+p1{
+    color: #fff;
+}
+
+footer {
+    background-color: #3f0c5f;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contact-info p {
+    /* font-size: 100%; */
+    margin: 5px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) 
+{
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}

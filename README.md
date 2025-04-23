@@ -1,6 +1,5 @@
 Website link : https://studyspott.netlify.app/
 
-StudySpot
 StudySpot is an educational website that curates high-quality study materials including notes, video lectures from top educators, and interactive quizzes. It aims to be a one-stop learning hub for students across various disciplines.
 
 🌟 Features:

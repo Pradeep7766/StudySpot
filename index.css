@@ -72,7 +72,9 @@ header nav ul li a:hover{
 
 .intro-section .text-content {
     flex: 2;
-    text-align:center;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 10rem;
 }
 
 .intro-section .image-content {
